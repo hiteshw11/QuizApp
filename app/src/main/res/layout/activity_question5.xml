@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Question5">
+
+    <TextView
+        android:id="@+id/textViewquestion5"
+        android:layout_width="267dp"
+        android:layout_height="116dp"
+        android:textColor="#000000"
+        android:text="With Which EU Country Does The UK Share A Land Border?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        style="@style/RoundedViewStyleGold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        style="@style/RoundedViewStyleEmerald"
+        android:layout_width="284dp"
+        android:layout_height="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintVertical_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/q5radiobuttonOne"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denmark"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/q5radiobuttonTwo"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Germany"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/q5radiobuttonThree"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Republic Of Ireland"
+            android:textSize="23sp" />
+
+        <RadioButton
+            android:id="@+id/q5radiobuttonFour"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Italy"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/q5questionSubmit"
+        android:layout_width="178dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Show The Result"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <TextView
+        android:id="@+id/score_question5"
+        style="@style/RoundedViewStylePurple"
+        android:layout_width="158dp"
+        android:layout_height="61dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
+</androidx.constraintlayout.widget.ConstraintLayout>

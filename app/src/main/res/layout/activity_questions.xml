@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-3dp">
+
+    <TextView
+
+        android:id="@+id/textViewQuestions1"
+        style="@style/RoundedViewStyleGold"
+        android:layout_width="295dp"
+        android:layout_height="108dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="What Is The Capital Of Canada?"
+        android:textColor="#4B3621"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        style="@style/RoundedViewStyleEmerald"
+
+
+        android:layout_width="284dp"
+        android:layout_height="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451">
+
+        <RadioButton
+            android:id="@+id/q1radioButtonOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toronto"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <RadioButton
+            android:id="@+id/q1radioButtonTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vancouver"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <RadioButton
+            android:id="@+id/q1radioButtonThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ottawa"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+        <RadioButton
+            android:id="@+id/q1radioButtonFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calgary"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="432dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ques1next"
+        android:layout_width="218dp"
+        android:layout_height="102dp"
+        android:text="Next Question"
+        android:textSize="28sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <TextView
+        android:id="@+id/score_question1"
+        style="@style/RoundedViewStylePurple"
+        android:layout_width="158dp"
+        android:layout_height="61dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
+</androidx.constraintlayout.widget.ConstraintLayout>
